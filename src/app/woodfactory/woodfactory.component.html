@@ -1,0 +1,14 @@
+<h2>Wood factory</h2>
+<h3 class="badge">Inputs</h3>
+<ul class="inputs">
+    <li *ngFor="let input of inputs">
+        {{input.Name}} <input [(ngModel)]="input.Amount" placeholder="amount"/>
+    </li>
+</ul>
+
+<h3 class="badge">Outputs</h3>
+<ul class="inputs">
+    <li *ngFor="let output of outputs">
+        {{output.Name}} <input [(ngModel)]="output.Amount" placeholder="amount"/>
+    </li>
+</ul>
