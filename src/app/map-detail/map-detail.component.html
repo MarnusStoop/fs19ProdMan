@@ -1,0 +1,12 @@
+<div *ngIf="map">
+
+    <h2>{{map.Name | uppercase}} Details</h2>
+    <ul class="factories">
+        <li *ngFor="let factory of map.Factories">
+            <a routerLink="/factoryDetails/{{map.Id}}/{{factory.Id}}">
+                <span class="badge">{{factory.Name}}</span>
+            </a>
+        </li>
+    </ul>
+
+</div>

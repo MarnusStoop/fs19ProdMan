@@ -1,0 +1,9 @@
+<h2>Maps</h2>
+
+<ul class="maps">
+    <li *ngFor="let map of maps">
+        <a routerLink="/mapdetails/{{map.Id}}">
+            <span class="badge">{{map.Name}}</span>
+        </a>
+    </li>
+</ul>

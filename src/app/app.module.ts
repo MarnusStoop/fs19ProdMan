@@ -4,12 +4,16 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { WoodfactoryComponent } from './woodfactory/woodfactory.component';
+import { MapsComponent } from './maps/maps.component';
+import { MapDetailComponent } from './map-detail/map-detail.component';
+import { FactoryDetailComponent } from './factory-detail/factory-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WoodfactoryComponent
+    MapsComponent,
+    MapDetailComponent,
+    FactoryDetailComponent
   ],
   imports: [
     BrowserModule,

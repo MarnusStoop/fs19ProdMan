@@ -1,0 +1,21 @@
+<div *ngIf="factory">
+
+    <h2>{{factory.Name | uppercase}} Details</h2>
+
+    <span class="badge">INPUTS</span>
+
+    <ul class="inputs">
+        <li *ngFor="let input of factory.Inputs">
+            <span>{{input.Name}}</span>
+        </li>
+    </ul>
+
+    <span class="badge">OUTPUTS</span>
+
+    <ul class="outputs">
+        <li *ngFor="let output of factory.Outputs">
+            <span>{{output.Name}}</span>
+        </li>
+    </ul>
+
+</div>

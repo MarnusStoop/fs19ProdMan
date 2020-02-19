@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WoodfactoryComponent } from './woodfactory.component';
+import { MapDetailComponent } from './map-detail.component';
 
-describe('WoodfactoryComponent', () => {
-  let component: WoodfactoryComponent;
-  let fixture: ComponentFixture<WoodfactoryComponent>;
+describe('MapDetailComponent', () => {
+  let component: MapDetailComponent;
+  let fixture: ComponentFixture<MapDetailComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WoodfactoryComponent ]
+      declarations: [ MapDetailComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WoodfactoryComponent);
+    fixture = TestBed.createComponent(MapDetailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
